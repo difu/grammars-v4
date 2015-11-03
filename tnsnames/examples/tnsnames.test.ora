@@ -42,3 +42,13 @@ alias_1,alias_2.world,alias3.dunbar-it.co.uk =
             (transport_connect_timeout = 5)
         )
     )
+    
+ALIAS.FOO.BAR = 
+	(DESCRIPTION = 
+		(ADDRESS_LIST = 
+			(ADDRESS = (PROTOCOL = TCP)(HOST = SOMEHOST.SERVICE.FOO.BAR) (PORT = 1521))
+		)
+		(CONNECT_DATA = 
+			(SERVICE_NAME = SOMESERVICE.SERVICE.FOO.BAR)
+		)
+	)
